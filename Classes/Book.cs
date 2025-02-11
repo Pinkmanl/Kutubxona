@@ -39,7 +39,7 @@ namespace kutubxona.Classes
         }
         public static void BooksRead()
         {
-            StreamReader reader = new StreamReader(Library.fileName);
+            StreamReader reader = new StreamReader(Library.bookName);
             {
                 string content = reader.ReadToEnd();
                 Console.WriteLine(content);
@@ -48,7 +48,7 @@ namespace kutubxona.Classes
         }
         public static void BookWriter()
         {
-            StreamWriter LearnerWriter = new(Library.fileName);
+            StreamWriter LearnerWriter = new(Library.bookName);
 
             foreach (Book item in Library.books)
             {

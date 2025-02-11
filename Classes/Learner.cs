@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Threading.Tasks;
 
 namespace kutubxona.Classes
@@ -33,6 +34,7 @@ namespace kutubxona.Classes
         }
         public static void listAdd()
         {
+            
             int length = Library.learners.Count;
             int addId = length + 1;
             System.Console.WriteLine("ismni kiriting");
@@ -51,7 +53,7 @@ namespace kutubxona.Classes
         }
         public static void LearnersWrite()
         {
-            StreamWriter LearnerWriter = new(Library.FileName);
+            StreamWriter LearnerWriter = new(Library.learnerName);
 
             foreach (Learner item in Library.learners)
             {
@@ -61,7 +63,7 @@ namespace kutubxona.Classes
         }
         public static void LearnersRead()
         {
-            StreamReader reader = new StreamReader(Library.FileName);
+            StreamReader reader = new StreamReader(Library.learnerName);
             {
                 string content = reader.ReadToEnd();
                 Console.WriteLine(content);

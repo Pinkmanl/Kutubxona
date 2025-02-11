@@ -12,3 +12,4 @@ c:\Users\dilmurod\Desktop\OOP-advanced-bo'limi-3\Kutubxona\obj\Debug\net9.0\refi
 c:\Users\dilmurod\Desktop\OOP-advanced-bo'limi-3\Kutubxona\obj\Debug\net9.0\Kutubxona.pdb
 c:\Users\dilmurod\Desktop\OOP-advanced-bo'limi-3\Kutubxona\obj\Debug\net9.0\Kutubxona.genruntimeconfig.cache
 c:\Users\dilmurod\Desktop\OOP-advanced-bo'limi-3\Kutubxona\obj\Debug\net9.0\ref\Kutubxona.dll
+c:\Users\dilmurod\Desktop\OOP-advanced-bo'limi-3\Kutubxona\obj\Debug\net9.0\Kutubxona.sourcelink.json

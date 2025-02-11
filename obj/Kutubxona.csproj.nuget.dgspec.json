@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\Kutubxona.csproj": {}
+    "c:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\Kutubxona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\Kutubxona.csproj": {
+    "c:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\Kutubxona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\Kutubxona.csproj",
+        "projectUniqueName": "c:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\Kutubxona.csproj",
         "projectName": "Kutubxona",
-        "projectPath": "C:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\Kutubxona.csproj",
+        "projectPath": "c:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\Kutubxona.csproj",
         "packagesPath": "C:\\Users\\dilmurod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\obj\\",
+        "outputPath": "c:\\Users\\dilmurod\\Desktop\\OOP-advanced-bo'limi-3\\Kutubxona\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dilmurod\\AppData\\Roaming\\NuGet\\NuGet.Config"

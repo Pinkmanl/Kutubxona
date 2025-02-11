@@ -4,7 +4,7 @@ namespace kutubxona.Classes
 {
     public class Library
     {
-        public static string FileName = "Learners.txt";
+        public static string learnerName = "Learners.txt";
         public static List<Learner> learners = new List<Learner>
         {
             new Learner( 1, "vali", "valiyev", 45, "vali45","Vali0045",1),
@@ -18,10 +18,10 @@ namespace kutubxona.Classes
                 new Book(3, "Ikki eshik orasi", "Sotsial-realistik", "Abdulla Qodiriy", 45,"ali"),
             };
 
-        public static string fileName = "Kutubxona.txt";
+        public static string bookName = "Kutubxona.txt";
         public static void fileWrite()
         {
-            StreamWriter BookWriter = new(fileName);
+            StreamWriter BookWriter = new(bookName);
 
             foreach (Book item in books)
             {

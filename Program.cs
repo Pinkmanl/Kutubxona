@@ -9,8 +9,10 @@ namespace kutubxona
     {
         static void Main()
         {
+            List<Learner> l = new List<Learner>();
+
             string? userName = "";
-            int tekshuruv = 0;
+            bool isValid = false;
             do
             {
                 System.Console.WriteLine("1.Hisobga kirish");
@@ -21,30 +23,31 @@ namespace kutubxona
                 {
                     case 1:
                         System.Console.WriteLine("loginni kiriting");
-                        string enterLogin = Console.ReadLine() ?? "";
+                        string login = Console.ReadLine() ?? "";
                         System.Console.WriteLine("parolni kirting");
-                        string enterPassword = Console.ReadLine() ?? "";
+                        string password = Console.ReadLine() ?? "";
+
                         foreach (Learner item in Library.learners)
                         {
-                            if (enterLogin == item.Login && enterPassword == item.Password)
+                            if (login == item.Login && password == item.Password)
                             {
                                 System.Console.WriteLine($"id: {item.Id}, ismi: {item.Name}, yoshi: {item.Age}");
-                                System.Console.WriteLine($"login: {item.Login}, parol: {item.Password}, O'qiyotgan kitob nomi: {item.ReadBook}");
+                                System.Console.WriteLine($"login: {item.Login}, parol: {item.Password}, O'qiyotgan kitob soni: {item.ReadBook}");
 
-                                tekshuruv = tekshuruv + 1;
+                                isValid = true;
                                 userName = item.Name;
                             }
                         }
                         break;
                     case 2:
                         Learner.listAdd();
-                        System.Console.WriteLine("Ro'yxatdan o'tdinggiz");
-                        tekshuruv = tekshuruv + 1;
+                        System.Console.WriteLine("Ro'yxatdan o'tdingiz");
+                        isValid = true;
                         userName = Learner.userName1;
                         break;
 
                 }
-            } while (tekshuruv == 0);
+            } while (isValid == false);
             int buyruq2 = 0;
             do
             {
