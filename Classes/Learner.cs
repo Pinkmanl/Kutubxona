@@ -61,14 +61,6 @@ namespace kutubxona.Classes
             }
             LearnerWriter.Close();
         }
-        public static void LearnersRead()
-        {
-            StreamReader reader = new StreamReader(Library.learnerName);
-            {
-                string content = reader.ReadToEnd();
-                Console.WriteLine(content);
-            }
-            reader.Close();
-        }
+       
     }
 }

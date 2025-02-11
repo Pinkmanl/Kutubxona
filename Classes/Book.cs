@@ -84,11 +84,6 @@ namespace kutubxona.Classes
                     }
                 }
             }
-
-
-
-
         }
-
     }
 }
